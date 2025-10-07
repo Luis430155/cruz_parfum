@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cruz Parfum</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #f5f0e6; /* beige */
+      color: #111; /* negro */
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #111; /* negro */
+      color: #d4af37; /* dorado */
+      padding: 40px 0;
+      font-size: 36px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      font-weight: bold;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    header p {
+      font-size: 1.2em;
+      color: #f5f0e6; /* beige */
+      margin-top: 10px;
+      font-style: italic;
+    }
+
+    main {
+      padding: 40px 20px;
+    }
+
+    section {
+      background-color: #fff8e6; /* beige claro */
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      margin: 30px auto;
+      max-width: 700px;
+      padding: 30px;
+    }
+
+    h2 {
+      color: #d4af37; /* dorado */
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 1.1em;
+      line-height: 1.5;
+      color: #111;
+    }
+
+    button {
+      background-color: #d4af37; /* dorado */
+      color: #111;
+      border: none;
+      padding: 15px 30px;
+      border-radius: 30px;
+      font-size: 1.1em;
+      cursor: pointer;
+      font-weight: bold;
+      transition: 0.3s;
+      box-shadow: 0 0 10px #d4af37;
+    }
+
+    button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #d4af37;
+    }
+
+    .contacto p {
+      font-size: 1.1em;
+      margin: 10px 0;
+    }
+
+    .contacto a img {
+      width: 35px;
+      margin-right: 10px;
+      filter: drop-shadow(0 0 4px #25D366);
+      vertical-align: middle;
+    }
+
+    footer {
+      background-color: #111;
+      color: #d4af37;
+      padding: 20px;
+      font-size: 0.9em;
+      margin-top: 40px;
+    }
+
+    .precio {
+      margin-top: 15px;
+      font-size: 1.2em;
+      color: #d4af37;
+      font-weight: bold;
+    }
+
+    a {
+      text-decoration: none;
+      color: #111;
+      font-weight: bold;
+      display: inline-flex;
+      align-items: center;
+      margin: 0 10px;
+    }
+
+    a:hover img {
+      transform: scale(1.1);
+      transition: 0.3s;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    CRUZ PARFUM
+    <p>Tu esencia, tu estilo, tu perfume.</p>
+  </header>
+
+  <main>
+    <!-- Bienvenida -->
+    <section>
+      <h2>Bienvenidos</h2>
+      <p>Descubre la elegancia y la esencia única de <strong>Cruz Parfum</strong>. Perfumes creados para destacar tu estilo y personalidad.</p>
+      <a href="catalogo.html">
+        <button>Ver Catálogo</button>
+      </a>
+      <p class="precio">¡Lociones desde $20.000! 💜 Todas las fragancias disponibles en nuestro catálogo.</p>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section id="sobre-nosotros">
+      <h2>Sobre Nosotros</h2>
+      <p>En <strong>Cruz Parfum</strong> creamos fragancias únicas que reflejan elegancia, estilo y personalidad. Cada aroma está hecho para destacar tu esencia.</p>
+    </section>
+
+    <!-- Contáctanos -->
+    <section class="contacto">
+      <h2>📞 Contáctanos</h2>
+      <p>¡Estamos listos para ayudarte a encontrar tu perfume ideal!</p>
+      <p>
+        <a href="https://wa.me/573103006920" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp 1">
+          310 300 6920
+        </a>
+        <a href="https://wa.me/573156902150" target="_blank">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp 2">
+          315 690 2150
+        </a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    © 2025 Cruz Parfum. Todos los derechos reservados
+  </footer>
+
+</body>
+</html>
